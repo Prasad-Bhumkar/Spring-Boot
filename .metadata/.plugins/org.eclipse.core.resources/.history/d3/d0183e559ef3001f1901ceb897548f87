@@ -1,0 +1,13 @@
+package com.seed;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class MyDate {
+	
+	private int day;
+	private int month;
+	private int year;
+	
+
+}

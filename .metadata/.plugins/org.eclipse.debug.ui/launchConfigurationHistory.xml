@@ -2,11 +2,13 @@
 <launchHistory>
     <launchGroup id="org.eclipse.debug.ui.launchGroup.debug">
         <mruHistory>
+            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;SpringBoot-Security-Demo - SpringBootSecurityDemoApplication&quot;/&gt;&#13;&#10;"/>
+            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;SpringBoot-REST - SpringBootRestApplication&quot;/&gt;&#13;&#10;"/>
+            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;SpringBootApplication2 - SpringBootApplication2Application&quot;/&gt;&#13;&#10;"/>
             <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;DBSpringBootApp1 - DbSpringBootApp1Application&quot;/&gt;&#13;&#10;"/>
             <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;SpringBoot-lombok - SpringBootLombokApplication&quot;/&gt;&#13;&#10;"/>
             <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;SpringBoot-MVC - SpringBootMvcApplication&quot;/&gt;&#13;&#10;"/>
             <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;SpringBootApplication2 - SpringBootApplication2Application (1)&quot;/&gt;&#13;&#10;"/>
-            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;SpringBootApplication2 - SpringBootApplication2Application&quot;/&gt;&#13;&#10;"/>
             <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;FirstSpringBootApplication1 - FirstSpringBootApplication1Application&quot;/&gt;&#13;&#10;"/>
         </mruHistory>
         <favorites/>
@@ -21,11 +23,13 @@
     </launchGroup>
     <launchGroup id="org.eclipse.debug.ui.launchGroup.run">
         <mruHistory>
+            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;SpringBoot-Security-Demo - SpringBootSecurityDemoApplication&quot;/&gt;&#13;&#10;"/>
+            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;SpringBoot-REST - SpringBootRestApplication&quot;/&gt;&#13;&#10;"/>
+            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;SpringBootApplication2 - SpringBootApplication2Application&quot;/&gt;&#13;&#10;"/>
             <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;DBSpringBootApp1 - DbSpringBootApp1Application&quot;/&gt;&#13;&#10;"/>
             <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;SpringBoot-lombok - SpringBootLombokApplication&quot;/&gt;&#13;&#10;"/>
             <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;SpringBoot-MVC - SpringBootMvcApplication&quot;/&gt;&#13;&#10;"/>
             <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;SpringBootApplication2 - SpringBootApplication2Application (1)&quot;/&gt;&#13;&#10;"/>
-            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;SpringBootApplication2 - SpringBootApplication2Application&quot;/&gt;&#13;&#10;"/>
             <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;launchConfiguration local=&quot;true&quot; path=&quot;FirstSpringBootApplication1 - FirstSpringBootApplication1Application&quot;/&gt;&#13;&#10;"/>
         </mruHistory>
         <favorites/>

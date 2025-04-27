@@ -6062,3 +6062,853 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2025-02-28 15:56:08.029
 !MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+!SESSION 2025-02-28 16:58:40.127 -----------------------------------------------
+eclipse.buildId=4.34.0.202502131954
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-28 16:58:45.726
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-28 16:58:52.274
+!MESSAGE Logback config file: D:\GITHUB_REPOSITORIES\Spring Boot\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-02-28 16:58:52.905
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-28 16:58:52.905
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 4 4 2025-02-28 16:58:53.198
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 35: file:/D:/GITHUB_REPOSITORIES/Spring Boot/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 2 0 2025-02-28 16:58:53.366
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-28 16:58:53.366
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 16:58:59.365
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 16:58:59.370
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 16:58:59.372
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 16:58:59.374
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-28 16:58:59.377
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\TEMP\springboot\sts-4.28.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=D:/GITHUB_REPOSITORIES/Spring Boot/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1740742139376
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\TEMP\springboot\sts-4.28.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-28 16:58:59.379
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 16:58:59.386
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 16:58:59.392
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-28 16:58:59.404
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 6912
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-28 16:59:00.971
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Prasad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-28 16:59:01.254
+!MESSAGE Boot project ADDED: DBSpringBootApp1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-28 16:59:01.256
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-28 16:59:01.259
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-28 16:59:01.274
+!MESSAGE Boot project ADDED: FirstSpringBootApplication1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-28 16:59:01.293
+!MESSAGE Boot project ADDED: PDF-Translator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-28 16:59:01.311
+!MESSAGE Boot project ADDED: SpringBoot-MVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-28 16:59:01.328
+!MESSAGE Boot project ADDED: SpringBoot-Maven-Mysql-rwd
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-28 16:59:01.340
+!MESSAGE Boot project ADDED: SpringBoot-lombok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-28 16:59:01.376
+!MESSAGE Boot project ADDED: SpringBootApplication2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-28 16:59:01.379
+!MESSAGE Boot project ADDED: StudentManagementSystem
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-02-28 16:59:03.699
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.jface 2 0 2025-02-28 17:00:37.838
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-02-28 17:00:37.838
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-28 17:03:52.575
+!MESSAGE Classpath changed for project: SpringBoot-REST
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-28 17:03:52.579
+!MESSAGE Boot project ADDED: SpringBoot-REST
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-28 17:03:54.795
+!MESSAGE Classpath changed for project: SpringBoot-REST
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-28 17:03:57.249
+!MESSAGE Classpath changed for project: SpringBoot-REST
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-28 17:03:58.335
+!MESSAGE Classpath changed for project: SpringBoot-REST
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-02-28 17:04:10.377
+!MESSAGE failed to load maven project for org.eclipse.ui.part.FileEditorInput(/StudentManagementSystem/pom.xml)
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:917)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectCache$CacheLine.lambda$1(MavenProjectCache.java:192)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectCache$CacheLine.getProject(MavenProjectCache.java:191)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectCache.getMavenProject(MavenProjectCache.java:105)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$24(ProjectRegistryManager.java:1101)
+	at java.base/java.util.Map.computeIfAbsent(Map.java:1066)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1100)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:289)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:241)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for mysql:mysql-connector-java:jar is missing. @ line 23, column 21
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for mysql:mysql-connector-java:jar is missing. @ line 23, column 21
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:140)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:943)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:939)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:904)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectCache$CacheLine.lambda$1(MavenProjectCache.java:192)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectCache$CacheLine.getProject(MavenProjectCache.java:191)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectCache.getMavenProject(MavenProjectCache.java:105)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$24(ProjectRegistryManager.java:1101)
+	at java.base/java.util.Map.computeIfAbsent(Map.java:1066)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1100)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:289)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:241)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2025-02-28 17:04:10.382
+!MESSAGE Could not read maven project
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-02-28 17:04:10.382
+!MESSAGE Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for mysql:mysql-connector-java:jar is missing. @ line 23, column 21
+
+!STACK 0
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for mysql:mysql-connector-java:jar is missing. @ line 23, column 21
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:140)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:943)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:939)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:904)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectCache$CacheLine.lambda$1(MavenProjectCache.java:192)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectCache$CacheLine.getProject(MavenProjectCache.java:191)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectCache.getMavenProject(MavenProjectCache.java:105)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$24(ProjectRegistryManager.java:1101)
+	at java.base/java.util.Map.computeIfAbsent(Map.java:1066)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1100)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:289)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:241)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 17:04:50.892
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 17:04:50.895
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 17:04:50.897
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 17:04:50.899
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 17:04:50.907
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 17:04:50.912
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 17:14:21.795
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 17:14:21.799
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 17:14:21.800
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 17:14:21.802
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 17:14:21.808
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 17:14:21.812
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-02-28 17:14:22.094
+!MESSAGE Could not get code actions due to timeout after 300 milliseconds in `textDocument/codeAction`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:159)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:210)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.hasCorrections(JavaCorrectionProcessor.java:148)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.hasCorrections(JavaCorrectionProcessor.java:138)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.canFix(JavaCorrectionProcessor.java:525)
+	at org.eclipse.jface.text.quickassist.QuickAssistAssistant.canFix(QuickAssistAssistant.java:130)
+	at org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.hasQuickFix(DefaultMarkerAnnotationAccess.java:435)
+	at org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.getImage(DefaultMarkerAnnotationAccess.java:390)
+	at org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.paint(DefaultMarkerAnnotationAccess.java:266)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doPaint1(AnnotationRulerColumn.java:795)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:530)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.redraw(AnnotationRulerColumn.java:821)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-28 17:19:54.413
+!MESSAGE Classpath changed for project: SpringBoot-REST
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 17:31:45.745
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 17:31:45.749
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 17:31:45.752
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 17:31:45.753
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 17:31:45.763
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 17:31:45.788
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-02-28 17:32:39.710
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-02-28 17:32:39.882
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 17:33:23.722
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 17:33:23.726
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 17:33:23.729
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 17:33:23.731
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 17:33:23.736
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-28 17:33:23.741
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-28 17:35:57.596
+!MESSAGE Classpath changed for project: SpringBoot-REST
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-28 17:43:11.991
+!MESSAGE Classpath changed for project: SpringBoot-REST
+!SESSION 2025-03-03 15:45:56.888 -----------------------------------------------
+eclipse.buildId=4.34.0.202502131954
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-03 15:46:02.322
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-03 15:47:07.109
+!MESSAGE Logback config file: D:\GITHUB_REPOSITORIES\Spring Boot\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-03-03 15:47:07.858
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-03 15:47:07.858
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 4 4 2025-03-03 15:47:08.158
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 35: file:/D:/GITHUB_REPOSITORIES/Spring Boot/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 2 0 2025-03-03 15:47:08.394
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-03 15:47:08.394
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-03 15:47:14.272
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\TEMP\springboot\sts-4.28.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=D:/GITHUB_REPOSITORIES/Spring Boot/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1740997034271
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\TEMP\springboot\sts-4.28.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 15:47:14.273
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-03 15:47:14.291
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 10816
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-03 15:47:16.275
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Prasad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 15:47:16.555
+!MESSAGE Boot project ADDED: DBSpringBootApp1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 15:47:16.561
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 15:47:16.577
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 15:47:16.608
+!MESSAGE Boot project ADDED: FirstSpringBootApplication1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 15:47:16.624
+!MESSAGE Boot project ADDED: PDF-Translator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 15:47:16.639
+!MESSAGE Boot project ADDED: SpringBoot-MVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 15:47:16.645
+!MESSAGE Boot project ADDED: SpringBoot-Maven-Mysql-rwd
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 15:47:16.649
+!MESSAGE Boot project ADDED: SpringBoot-REST
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 15:47:16.679
+!MESSAGE Boot project ADDED: SpringBoot-lombok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 15:47:16.696
+!MESSAGE Boot project ADDED: SpringBootApplication2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 15:47:16.701
+!MESSAGE Boot project ADDED: StudentManagementSystem
+!SESSION 2025-03-03 16:47:59.692 -----------------------------------------------
+eclipse.buildId=4.34.0.202502131954
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-03 16:48:04.306
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-03 16:48:08.329
+!MESSAGE Logback config file: D:\GITHUB_REPOSITORIES\Spring Boot\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-03-03 16:48:08.903
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-03 16:48:08.903
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 4 4 2025-03-03 16:48:09.155
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 35: file:/D:/GITHUB_REPOSITORIES/Spring Boot/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 2 0 2025-03-03 16:48:09.312
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-03 16:48:09.312
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-03 16:48:14.880
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\TEMP\springboot\sts-4.28.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=D:/GITHUB_REPOSITORIES/Spring Boot/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1741000694878
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\TEMP\springboot\sts-4.28.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 16:48:14.881
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-03 16:48:14.901
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 716
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-03 16:48:16.479
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Prasad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 16:48:16.608
+!MESSAGE Boot project ADDED: DBSpringBootApp1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 16:48:16.610
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 16:48:16.614
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 16:48:16.615
+!MESSAGE Boot project ADDED: FirstSpringBootApplication1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 16:48:16.618
+!MESSAGE Boot project ADDED: PDF-Translator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 16:48:16.621
+!MESSAGE Boot project ADDED: SpringBoot-MVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 16:48:16.623
+!MESSAGE Boot project ADDED: SpringBoot-Maven-Mysql-rwd
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 16:48:16.625
+!MESSAGE Boot project ADDED: SpringBoot-REST
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 16:48:16.627
+!MESSAGE Boot project ADDED: SpringBoot-lombok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 16:48:16.629
+!MESSAGE Boot project ADDED: SpringBootApplication2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 16:48:16.631
+!MESSAGE Boot project ADDED: StudentManagementSystem
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-03 16:48:17.910
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jface 2 0 2025-03-03 17:04:43.180
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-03-03 17:04:43.180
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:11:58.987
+!MESSAGE Classpath changed for project: SpringBoot-Security-Demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:11:58.990
+!MESSAGE Boot project ADDED: SpringBoot-Security-Demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:12:00.747
+!MESSAGE Classpath changed for project: SpringBoot-Security-Demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:12:02.683
+!MESSAGE Classpath changed for project: SpringBoot-Security-Demo
+
+!ENTRY org.eclipse.wst.sse.core 4 4 2025-03-03 18:12:32.722
+!MESSAGE can not get a buffer without a document reference
+!STACK 0
+java.lang.IllegalArgumentException: can not get a buffer without a document reference
+	at org.eclipse.wst.sse.core.internal.FileBufferModelManager.getBuffer(FileBufferModelManager.java:674)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.getModelPath(JSPTranslator.java:3310)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.writeExternal(JSPTranslator.java:3418)
+	at java.base/java.io.ObjectOutputStream.writeExternalData(ObjectOutputStream.java:1478)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1449)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.persistTranslator(JSPTranslatorPersister.java:265)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.persistTranslation(JSPTranslatorPersister.java:149)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:139)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob$1.run(AbstractIndexManager.java:1569)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1567)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:25:42.849
+!MESSAGE Classpath changed for project: SpringBoot-Security-Demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:30:00.214
+!MESSAGE Classpath changed for project: SpringBoot-Security-Demo
+!SESSION 2025-03-03 18:48:39.263 -----------------------------------------------
+eclipse.buildId=4.34.0.202502131954
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-03 18:48:43.620
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-03 18:48:56.817
+!MESSAGE Logback config file: D:\GITHUB_REPOSITORIES\Spring Boot\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-03-03 18:48:58.198
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-03 18:48:58.199
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 4 4 2025-03-03 18:48:58.666
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 35: file:/D:/GITHUB_REPOSITORIES/Spring Boot/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 2 0 2025-03-03 18:48:59.233
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-03 18:48:59.233
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-03 18:49:07.245
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\TEMP\springboot\sts-4.28.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=D:/GITHUB_REPOSITORIES/Spring Boot/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1741007947244
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\TEMP\springboot\sts-4.28.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:49:07.246
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-03 18:49:07.272
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 11056
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-03 18:49:08.407
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Prasad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:49:08.683
+!MESSAGE Boot project ADDED: DBSpringBootApp1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:49:08.687
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:49:08.693
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:49:08.709
+!MESSAGE Boot project ADDED: FirstSpringBootApplication1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:49:08.730
+!MESSAGE Boot project ADDED: PDF-Translator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:49:08.745
+!MESSAGE Boot project ADDED: SpringBoot-MVC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:49:08.761
+!MESSAGE Boot project ADDED: SpringBoot-Maven-Mysql-rwd
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:49:08.777
+!MESSAGE Boot project ADDED: SpringBoot-REST
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:49:08.792
+!MESSAGE Boot project ADDED: SpringBoot-Security-Demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:49:08.807
+!MESSAGE Boot project ADDED: SpringBoot-lombok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:49:08.822
+!MESSAGE Boot project ADDED: SpringBootApplication2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:49:08.825
+!MESSAGE Boot project ADDED: StudentManagementSystem
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:49:13.090
+!MESSAGE Classpath changed for project: SpringBoot-Security-Demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:49:26.408
+!MESSAGE Classpath changed for project: SpringBoot-Security-Demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:49:26.814
+!MESSAGE Classpath changed for project: SpringBoot-Security-Demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-03 18:49:30.547
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:49:31.075
+!MESSAGE Classpath changed for project: SpringBoot-Security-Demo
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 18:50:27.346
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 18:50:27.350
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 18:50:27.353
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 18:50:27.354
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 18:50:27.362
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-03-03 18:50:27.367
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.jface 2 0 2025-03-03 18:50:27.599
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-03-03 18:50:27.599
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:52:10.024
+!MESSAGE Classpath changed for project: SpringBoot-Security-Demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:52:10.534
+!MESSAGE Classpath changed for project: SpringBoot-Security-Demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:52:11.552
+!MESSAGE Classpath changed for project: SpringBoot-Security-Demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:52:18.221
+!MESSAGE Classpath changed for project: SpringBoot-Security-Demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:52:18.391
+!MESSAGE Classpath changed for project: SpringBoot-Security-Demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-03 18:52:57.456
+!MESSAGE Classpath changed for project: SpringBoot-Security-Demo
